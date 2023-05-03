@@ -65,10 +65,10 @@ with Spring framework and a Postgres database.&nbsp;<a href="spring-postgres"><i
 - [`PHP`](apache-php)&nbsp;<a href="apache-php"><img src="icon_devenvs.svg" alt="Use with Docker Dev Environments" height="30" align="top"/></a>
 - [`Traefik`](traefik-golang)&nbsp;<a href="traefik-golang"><img src="icon_devenvs.svg" alt="Use with Docker Dev Environments" height="30" align="top"/></a>
 - [`Django`](django)&nbsp;<a href="django"><img src="icon_devenvs.svg" alt="Use with Docker Dev Environments" height="30" align="top"/></a>
-- [`Minecraft server`](https://github.com/docker/awesome-compose/tree/master/minecraft)
-- [`Plex`](https://github.com/docker/awesome-compose/tree/master/plex)
-- [`Portainer`](https://github.com/docker/awesome-compose/tree/master/portainer)
-- [`Wireguard`](https://github.com/docker/awesome-compose/tree/master/wireguard)
+- [`Minecraft server`](https://github.com/WindAflame/awesome-compose/tree/master/minecraft)
+- [`Plex`](https://github.com/WindAflame/awesome-compose/tree/master/plex)
+- [`Portainer`](https://github.com/WindAflame/awesome-compose/tree/master/portainer)
+- [`Wireguard`](https://github.com/WindAflame/awesome-compose/tree/master/wireguard)
 - [`FastAPI`](fastapi)&nbsp;<a href="fastapi#use-with-docker-development-environments"><img src="icon_devenvs.svg" alt="Use with Docker Dev Environments" height="30" align="top"/></a>
 
 ## Basic setups for different platforms (not production ready - useful for personal use)
