@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  hugo:
+    image: ${HUGO_IMAGE}
+    command: server
+    volumes:
+      - "${WORKDIR}:/src"
+    environment:
+      - HUGO_BIND=${HUGO_BIND}
+      - HUGO_CACHEDIR=${HUGO_CACHEDIR}
+      - HUGO_DESTINATION=${HUGO_DESTINATION}
+      - HUGO_PANDOC=${HUGO_PANDOC}
+      - HUGO_ENV=${HUGO_ENV}
+      - HUGO_VERSION=${HUGO_VERSION}
+      - HUGO_VERSION_OVERRIDE=${HUGO_VERSION_OVERRIDE}
+    ports:
+      - "${WEBSITE_PORT}:1313"
