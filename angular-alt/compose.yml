@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    volumes:
+      - "${WORKDIR}:/project"
+    ports:
+      - "${WEBSITE_PORT}:4200"
+    env_file:
+    - .env
